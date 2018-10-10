@@ -2,9 +2,9 @@
 
 
 ## Completed 
-Establish the server requirements and understand how Sentinel Hub is imported to QGIS 
-Create a simple pyserver that takes an HTTP request and send a request on insomnia 
-Setting up python environment locally 
+1.Establish the server requirements and understand how Sentinel Hub is imported to QGIS 
+2.Create a simple pyserver that takes an HTTP request and send a request on insomnia 
+3.Setting up python environment locally 
 
 
 ## To be completed by 12 Oct 2018 (Thursday) 
