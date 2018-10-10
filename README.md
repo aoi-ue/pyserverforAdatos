@@ -2,17 +2,17 @@
 
 
 ## Completed 
-- [ ]Establish the server requirements and understand how Sentinel Hub is imported to QGIS 
-- [ ]Create a simple pyserver that takes an HTTP request and send a request on insomnia 
-- [ ]Setting up python environment locally 
+[ ]Establish the server requirements and understand how Sentinel Hub is imported to QGIS 
+[ ]Create a simple pyserver that takes an HTTP request and send a request on insomnia 
+[ ]Setting up python environment locally 
 
 
 ## To be completed by 12 Oct 2018 (Thursday) 
-- [ ]Implement three functions in pyserver: 
-i. handles HTTP request from Tasking Server and run Josie's Script 
-ii. convert and complied preprocessor script into folders of images
-iii. pass folders to run in Hafiz's Script
-- [ ]Mock data to run all 3 functions
+[ ]Implement three functions in pyserver: 
+  *handles HTTP request from Tasking Server and run Josie's Script 
+  *convert and complied preprocessor script into folders of images
+  *pass folders to run in Hafiz's Script
+[ ]Mock data to run all 3 functions
 
 
 ## On-hold 
