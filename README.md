@@ -9,9 +9,9 @@
 
 ## To be completed by 12 Oct 2018 (Thursday) 
 - [ ] Implement three functions in pyserver: 
-  *handles HTTP request from Tasking Server and run Josie's Script 
-  *convert and complied preprocessor script into folders of images
-  *pass folders to run in Hafiz's Script
+  * handles HTTP request from Tasking Server and run Josie's Script 
+  * convert and complied preprocessor script into folders of images
+  * pass folders to run in Hafiz's Script
   
 - [ ] Mock data to run all 3 functions
 
