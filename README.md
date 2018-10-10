@@ -1,11 +1,10 @@
 # pyserverforAdatos
 
-
 ## Completed 
 - [x]  Establish the server requirements and understand how Sentinel Hub is imported to QGIS 
-- [ ]  Create a simple pyserver that takes an HTTP request and send a request on insomnia 
+- [x]  Create a simple pyserver that takes an HTTP request and send a request on insomnia 
+- [x] Implemented GET & POST using Requests Library (http://docs.python-requests.org/en/master/)
 - [x]  Setting up python environment locally 
-
 
 ## To be completed by 12 Oct 2018 (Thursday) 
 - [ ] Implement three functions in pyserver: 
@@ -14,7 +13,6 @@
   * pass folders to run in Hafiz's Script
   
 - [ ] Mock data to run all 3 functions
-
 
 ## On-hold 
 - [ ] Implement pyserver into Hafiz's and Josie's python code base to test-run the function, as proposed, is working 
