@@ -1,9 +1,9 @@
-# pyserverforAdatos
+# pyserverforAdatos checklist
 
 ## Completed 
 - [x]  Establish the server requirements and understand how Sentinel Hub is imported to QGIS 
 - [x]  Create a simple pyserver that takes an HTTP request and send a request on insomnia 
-- [x] Implemented GET & POST using Requests Library (http://docs.python-requests.org/en/master/)
+- [x]  Implemented GET & POST using Requests Library (http://docs.python-requests.org/en/master/)
 - [x]  Setting up python environment locally 
 
 ## To be completed by 12 Oct 2018 (Thursday) 
