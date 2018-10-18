@@ -1,0 +1,20 @@
+{
+    "api_key": "",
+    "job_id": 6,
+    "organization_id": 1,
+    "organization_key": "demo",
+    "region_key": "Johor",
+    "mode": "s2",
+    "analysis_key": ["flood_risk", "plant_productivity", "foilar_moisture"],
+    "data_s2": [{
+        "product_name": "S2A_MSIL1C_20180903T031541_N0206_R118_T48NUH_20180903T061615",
+        "utm_zone": 48,
+        "latitude_band": "N",
+        "grid_square": "UH"
+    }, {
+        "product_name": "S2A_MSIL1C_20180903T031541_N0206_R118_T48NUH_20180903T061615",
+        "utm_zone": 48,
+        "latitude_band": "N",
+        "grid_square": "UH"
+    }]
+}

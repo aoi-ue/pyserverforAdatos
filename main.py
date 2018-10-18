@@ -1,36 +1,32 @@
-import http.server 
-import socketserver
-import requests 
+from bottle import run, get, post, request 
+import json
 
-PORT = 8000 
+data = json.load(open('json_tasking_input.json', 'r'))
 
-Handler = http.server.SimpleHTTPRequestHandler
-httpd = socketserver.TCPServer(("",PORT),Handler) 
-
-print ("Successfully created at PORT", PORT)
-
-# placeholder for tasking_server in config server tasking url /trigger task
-r = requests.get('https://swapi.co/api/people/1')
-data = r.json() 
-
-if r.status_code == 200: 
-    print ("GET Request from Tasking Server is connected successfully")
-else: 
-    print ("Try again!")
+# Get Specific Scripts from S3 Based on the tasking_server's analysis key 
+@get('/tasking')
+def getAll():
+	return {'data': data}
 
 
-# pass r.request into function to run josie's code
-def josie(): 
-    print (data['name'])
-
-josie()
-
-# library built in for sentinel files to be compiled as images 
+@post('/tasking')
+def inputNew(): 
+	new_request= {'data' : ''}
+	data.append(new_request)
+	return {'data' : data}
 
 
-# function to run hafiz's code 
+# Run and Async Josie's Script 
 
-# function to store in aws database 
+# Run Hafiz's Script 
+
+# Error Handler to end script and notify josie & hafiz 
+
+# Post to AWS Script 
+
+# Post to mapping_server
+
+# python SMTP to client 
 
 
-httpd.serve_forever()
+run(host='localhost', port=8000, reloader=True, debug=True)
